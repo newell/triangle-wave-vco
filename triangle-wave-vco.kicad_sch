@@ -5,8 +5,8 @@
   (paper "A5")
 
   (title_block
-    (title "LM358 VCO")
-    (date "2023-06-21")
+    (title "Triangle Wave VCO (LM358)")
+    (date "2023-07-14")
     (company "Newell Jensen")
   )
 
@@ -996,9 +996,9 @@
   )
 
   (symbol (lib_id "Connector:Conn_Coaxial") (at 99.06 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 6f75b3d2-6573-47a6-9a81-a8a8fb9b4649)
-    (property "Reference" "J1" (id 0) (at 102.87 84.1131 0)
+    (property "Reference" "TRIANGLE" (id 0) (at 95.25 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_Coaxial" (id 1) (at 101.6 85.3831 0)
@@ -1137,9 +1137,9 @@
   )
 
   (symbol (lib_id "Connector:Conn_Coaxial") (at 120.65 68.58 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid b9e63450-1b09-4482-9eb6-861b27c2015a)
-    (property "Reference" "J2" (id 0) (at 124.46 68.8731 0)
+    (property "Reference" "SQUARE" (id 0) (at 116.84 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_Coaxial" (id 1) (at 123.19 70.1431 0)
@@ -1409,12 +1409,6 @@
     (path "/dde7d1c0-4945-4dd9-8484-dcdd9fd3468c"
       (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/6f75b3d2-6573-47a6-9a81-a8a8fb9b4649"
-      (reference "J1") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.5mm_D0.65mm_OD2mm")
-    )
-    (path "/b9e63450-1b09-4482-9eb6-861b27c2015a"
-      (reference "J2") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.5mm_D0.65mm_OD2mm")
-    )
     (path "/759c0c56-9333-4544-bd98-00d7f2aec493"
       (reference "J3") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm")
     )
@@ -1453,6 +1447,12 @@
     )
     (path "/11e2239a-0109-47c0-8c0b-fad8e17e2468"
       (reference "RV1") (unit 1) (value "20k") (footprint "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal")
+    )
+    (path "/b9e63450-1b09-4482-9eb6-861b27c2015a"
+      (reference "SQUARE") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.5mm_D0.65mm_OD2mm")
+    )
+    (path "/6f75b3d2-6573-47a6-9a81-a8a8fb9b4649"
+      (reference "TRIANGLE") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.5mm_D0.65mm_OD2mm")
     )
     (path "/e7de4123-128b-4c12-b6fc-9c25cca43509"
       (reference "U1") (unit 1) (value "LM358") (footprint "Package_DIP:DIP-8_W10.16mm_LongPads")
