@@ -8,3 +8,8 @@ By varying the control voltage applied to the VCO, the slope or rate at which th
 
 Triangle wave VCOs are commonly used in various applications, including audio synthesis, modulation techniques, and frequency modulation (FM) systems. They provide a means of generating a continuous, linearly increasing and decreasing waveform with controllable frequency.
 
+<!-- <p align="center">
+  <img src="https://github.com/newell/triangle-wave-vco/assets/4163356/556a9931-137e-4330-9e4c-908e14b6ca91" />
+</p> -->
+
+
